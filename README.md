@@ -26,28 +26,28 @@ Run the Program: Compile and run the algorithm of your choice (e.g., huffman.c).
 
 
 Enter Compression Details:
-Input File: Specify the file you want to compress (e.g., input.txt).
-Compressed Output File: Name the compressed file (e.g., compressed_huffman.bin).
-Compression Algorithm: Each .c file corresponds to a specific algorithm (Huffman, LZW, or RLE).
+1.Input File: Specify the file you want to compress (e.g., input.txt).
+2.Compressed Output File: Name the compressed file (e.g., compressed_huffman.bin).
+3.Compression Algorithm: Each .c file corresponds to a specific algorithm (Huffman, LZW, or RLE).
 Decompression:
 
-
-Compressed File: Specify the previously generated compressed file (e.g., compressed_huffman.bin).
-Decompressed Output File: Name the file for decompressed data (e.g., decompressed_huffman.txt).
-Decompression Algorithm: Run the matching algorithm (e.g., if huffman.c was used to compress, use the same file for decompression).
+For Decompression:
+1.Compressed File: Specify the previously generated compressed file (e.g., compressed_huffman.bin).
+2.Decompressed Output File: Name the file for decompressed data (e.g., decompressed_huffman.txt).
+3.Decompression Algorithm: Run the matching algorithm (e.g., if huffman.c was used to compress, use the same file for decompression).
 
 
 
 
 Using the Combined Program (fullcode.c)
 Run the Program: Compile and run fullcode.c.
-Enter Compression Details:
-Input File: Specify the file you want to compress (e.g., input.txt).
-Compressed Output File: Provide a name for the compressed file (e.g., compressed_auto.bin).
-Algorithm Selection:
-Choose an algorithm (Huffman, LZW, or RLE), or select AUTO to let the program determine the best option.
-Decompression:
-Compressed File: Enter the compressed file generated during compression.
-Decompressed Output File: Name the file for decompressed data (e.g., output_auto.txt).
-Decompression Algorithm: Use the same algorithm chosen or auto-selected in compression.
+1.Enter Compression Details:
+1.1.Input File: Specify the file you want to compress (e.g., input.txt).
+1.2.Compressed Output File: Provide a name for the compressed file (e.g., compressed_auto.bin).
+1.3.Algorithm Selection:
+1.4.Choose an algorithm (Huffman, LZW, or RLE), or select AUTO to let the program determine the best option.
+2.Decompression:
+2.1.Compressed File: Enter the compressed file generated during compression.
+2.2.Decompressed Output File: Name the file for decompressed data (e.g., output_auto.txt).
+2.3.Decompression Algorithm: Use the same algorithm chosen or auto-selected in compression.
 
